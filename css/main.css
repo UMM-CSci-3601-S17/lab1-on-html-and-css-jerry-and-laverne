@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 h2 {
     color: red;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
@@ -20,4 +23,42 @@ img {
 
 .footer {
     background-color: lightblue;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+}
+
+.menu {
+    font-size: 2em;
+    width: 27%;
+}
+
+.content {
+    width: 73%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contact {
+    float: left;
+    padding: 10px;
+}
+
+.address {
+    width: 33%;
+}
+
+.phone {
+    width: 33%;
+}
+
+.email {
+    width: 34%;
 }
