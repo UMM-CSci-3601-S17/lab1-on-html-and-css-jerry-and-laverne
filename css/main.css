@@ -17,3 +17,7 @@ img {
 .centerText {
     text-align: center;
 }
+
+.footer {
+    background-color: lightblue;
+}
