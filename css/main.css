@@ -40,13 +40,7 @@ img {
     width: 73%;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.footer::after {
+.clearfix::after, .footer::after {
     content: "";
     clear: both;
     display: table;
@@ -57,14 +51,6 @@ img {
     padding: 10px;
 }
 
-.address {
+.address, .email, .phone {
     width: 33%;
-}
-
-.phone {
-    width: 33%;
-}
-
-.email {
-    width: 34%;
 }
