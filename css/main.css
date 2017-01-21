@@ -46,6 +46,12 @@ img {
     display: table;
 }
 
+.footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .contact {
     float: left;
     padding: 10px;
