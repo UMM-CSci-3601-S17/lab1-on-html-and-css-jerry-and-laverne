@@ -1,13 +1,18 @@
 * {
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
 h2 {
     color: red;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
-p {
-    font-family: monospace;
+.content p {
+    font-size: 1.2em;
 }
 
 img {
@@ -21,23 +26,47 @@ img {
     text-align: center;
 }
 
+body {
+    background-color: lightgrey;
+}
+
+.header {
+    background-color: lightblue;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 .footer {
     background-color: lightblue;
-    padding: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .column {
     float: left;
     padding: 20px;
+    background-color:coral;
 }
 
 .menu {
     font-size: 2em;
-    width: 27%;
+    width: 26%;
+    margin-left: 1%;
 }
 
 .content {
-    width: 73%;
+    background-color: white;
+    width: 71%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 10px;
+}
+
+#link-to-top {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .clearfix::after, .footer::after {
