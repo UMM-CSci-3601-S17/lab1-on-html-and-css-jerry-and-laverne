@@ -27,7 +27,7 @@ img {
 }
 
 body {
-    background-color: lightgrey;
+    background-color: darkslategrey;
 }
 
 .header {
@@ -42,7 +42,7 @@ body {
 
 .footer {
     border-radius: 10px;
-    background-color: lightblue;
+    background-color: coral;
     margin-left: 1%;
     margin-right: 1%;
 }
