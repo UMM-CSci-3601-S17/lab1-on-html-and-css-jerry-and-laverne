@@ -2,8 +2,17 @@
     box-sizing: border-box;
 }
 
-a {
+.menu a {
     text-decoration: none;
+    color: white;
+    background-color: #b25945;
+    border-radius: 5px;
+    padding: 2px;
+    font-style: italic;
+}
+
+.column .section-link {
+    margin-top: 5px;
 }
 
 .content p {
